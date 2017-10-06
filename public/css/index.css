@@ -1,0 +1,113 @@
+h1 {
+  border-style: solid;
+}
+
+body {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: #000000;
+}
+
+.header,
+.marketing,
+.footer {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.header {
+  padding-bottom: 1rem;
+  border-bottom: .05rem solid #e5e5e5;
+}
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+
+.footer {
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
+
+@media (min-width: 48em) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+.container-narrow > hr {
+  margin: 2rem 0;
+}
+
+.jumbotron {
+  text-align: center;
+  border-bottom: .05rem solid #e5e5e5;
+  background-color: black !important;
+}
+
+.jumbotron .btn {
+  padding: .75rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+.marketing {
+  margin: 3rem 0;
+}
+
+.marketing p + h4 {
+  margin-top: 1.5rem;
+}
+
+
+@media screen and (min-width: 48em) {
+  .header,
+  .marketing,
+  .footer {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.jumbotron {
+  border-bottom: 0;
+  background-color: black;
+}
+
+.jumbotron .container {
+  color: black;
+  font-family: 'Megrim', cursive;
+  font-size: 100px;
+  background-color: black;
+  text-align: center;
+  border-radius: -50px;
+  font-weight: -100;
+}
+
+#Menu {
+  color: black;
+  font-family: 'Megrim', cursive;
+  font-size: 40px;
+  margin: 0 auto;
+  border-radius: 25px;
+  border-color: white;
+  width: 100px;
+}
+
+.testContainer .nav-item a{
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  color: white !important;
+  font-family: 'Exo', sans-serif;
+}
+
+.testContainer .nav-item a:hover{
+  color: purple;
+  background-color: black;
+}
