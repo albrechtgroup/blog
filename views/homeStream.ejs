@@ -44,25 +44,25 @@
 
 <div class="content-container">
 <div class="container">
-        <% articles.forEach(function(post){ %>
+        <!--<% articles.forEach(function(post){ %> -->
             <section class="body-container">
                 <div class="card">
                 <div class="card-header">
             </div>
                 <div class="profile-info">
-                <div class="profile-name"><%= post.username %></div>
+                <div class="profile-name"> <!--<%= post.username %></div> -->
             </div>
             <div class="content">
             <div> <img src="/file_uploader/image-1504746733795.jpg" class="img-thumbnail" alt="fish">
             </div>
            <div class="card-footer">
            <div class="description">
-             <div class="profile-name"><%= post.username %></div>
-        <p><span class="username">Description:</span> <%= post.description %></p>
+             <div class="profile-name"> <!--<%= post.username %></div> -->
+        <p><span class="username">Description:</span> <!--<%= post.description %> --></p>
 
         <div class="comments">
             <p><span class="username">Comments:</span></p>
-            <p><span class="username">HashTag:</span><%= post.hashtag %></p>
+            <p><span class="username">HashTag:</span> <!--<%= post.hashtag %> --></p>
         </div>
             <form method="POST" action="/addComment">
                 <div class="form-group">
@@ -76,7 +76,7 @@
                 </div>
             </form>
 
-        <% }) %>
+      <!--  <% }) %> -->
     </section>
     </div>
 </html>
