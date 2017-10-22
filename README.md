@@ -1,11 +1,11 @@
-# instaClone
+# Andy's Blog/Portfolio
 
 
                                                BobCatz Stream App
 
 
 
-This is our Instagram clone. Its a website in which you can upload pictures to main gallery
+This is my Blog/Portfolio. Its a website in which you can upload pictures to main gallery
 and share your thoughts with friends! We used Node.js, PostgreSQL, EJS, BootStrap, and of course Express!
  Node librarys include multer, passport, pg, pg-migrator, and bcrypt. I hope you enjoy!  
 

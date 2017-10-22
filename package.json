@@ -1,5 +1,5 @@
 {
-  "name": "instaClone",
+  "name": "Blog/Portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "node": ">=5.10.1",
     "npm": ">=4.6.1"
   },
-  "author": "bobCats",
+  "author": "andy albrecht",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^1.0.3",
