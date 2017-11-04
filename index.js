@@ -120,6 +120,6 @@ app.post('/portfolio',uploadRequestHandler.single('image'), indexController.post
 
 
 
-app.listen(3000, () => {
+app.listen(8000, () => {
     console.log('web server running');
 })
